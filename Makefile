@@ -6,7 +6,7 @@ LIBFT_DIR = libft
 
 LIBFT = $(LIBFT_DIR)/libft.a
 
-SRCS = linkedlist.c stack_a_op.c stack_b_op.c
+SRCS = linkedlist.c stack_a_op.c stack_b_op.c stack_a_b_op.c test3.c test4.c\
 
 OBJS = $(SRCS:.c=.o)
 
